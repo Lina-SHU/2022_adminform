@@ -1,0 +1,22 @@
+.navBar{
+  width: 23%;
+
+}
+
+.navBarList{
+  
+  &-link{
+    padding-left: 32px;
+    color: #212529;
+    &:hover{
+      padding-left: 28px;
+      border-left: 4px solid #198754;
+      color: #198754;
+    }
+  }
+  .active{
+    padding-left: 28px;
+    border-left: 4px solid #198754;
+    color: #198754;
+  }
+}
