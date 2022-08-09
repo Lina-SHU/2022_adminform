@@ -3,10 +3,40 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+.navBar {
+  width: 23%;
+}
+
+.navBarList-link {
+  padding-left: 32px;
+  color: #212529;
+}
+
+.navBarList-link:hover {
+  padding-left: 28px;
+  border-left: 4px solid #198754;
+  color: #198754;
+}
+
+.navBarList .active {
+  padding-left: 28px;
+  border-left: 4px solid #198754;
+  color: #198754;
+}
+
 .index__h1 {
   color: #00cc99;
   font-size: 20px;
   font-weight: 400;
+}
+
+.author {
+  width: 40px;
+  height: 40px;
 }
 
 /*# sourceMappingURL=all.css.map */
