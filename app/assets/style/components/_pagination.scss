@@ -1,0 +1,26 @@
+.pagination{
+  .page-link{
+    width: 32px;
+    height: 32px;
+    border-color: #198754;
+    color: #212529;
+    &:hover{
+      color: white;
+      background-color: #198754;
+    }
+  }
+  .active{
+    color: white;
+    background-color: #198754;
+  }
+  .changePage{
+    .material-icons {
+      color: #198754;
+  
+      &:hover {
+        color: white;
+        background-color: #198754;
+      }
+    }
+  }
+}
