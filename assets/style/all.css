@@ -8,7 +8,8 @@ body {
 }
 
 .navBar {
-  width: 23%;
+  width: 296px;
+  position: fixed;
 }
 
 .navBarList-link {
@@ -28,6 +29,10 @@ body {
   color: #198754;
 }
 
+.content {
+  margin-left: 296px;
+}
+
 .arrow_downward {
   font-size: 18px;
 }
@@ -44,6 +49,8 @@ body {
 .author {
   width: 40px;
   height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .view-modal-img {
@@ -83,10 +90,6 @@ body {
 
 .form-space-mb {
   margin-bottom: 24.5px;
-}
-
-.form-space-pb {
-  padding-bottom: 24.5px;
 }
 
 .form-check-input {
