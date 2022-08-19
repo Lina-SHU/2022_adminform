@@ -1,6 +1,6 @@
 .navBar{
-  width: 23%;
-
+  width: 296px;
+  position: fixed;
 }
 
 .navBarList{
@@ -18,4 +18,8 @@
     border-left: 4px solid #198754;
     color: #198754;
   }
+}
+
+.content{
+  margin-left: 296px;
 }

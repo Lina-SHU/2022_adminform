@@ -28,7 +28,7 @@ current: admin
   </ul>
 </div>
 <div class="px-5 py-3">
-  <table class="table">
+  <table class="table table-hover">
     <thead>
       <tr>
         <th scope="col" class="d-flex align-items-center pt-0 pb-1"
@@ -190,10 +190,11 @@ current: admin
           <label for="account" class="form-label fs-7 mb-1">Name</label>
           <input type="text" class="form-control p-3" id="account">
         </div>
-        <div class="form-space-pb border-bottom border-primary form-space-mb">
+        <div class="form-space-mb">
           <label for="email" class="form-label fs-7 mb-1">Email</label>
           <input type="email" class="form-control p-3" id="email">
         </div>
+        <hr class="form-space-mb">
         <h3 class="fw-bold fs-5 mb-3lg">Verification</h3>
         <p class="mb-3lg fw-bold d-flex align-items-center">
           <span class="material-icons text-danger me-2">warning</span>
@@ -203,7 +204,7 @@ current: admin
           <button class="btn btn-outline-success border-primary py-3" type="button">Send Verification Mail</button>
         </div>
         <h3 class="fw-bold fs-5 mb-3">Access Level</h3>
-        <div class="form-space-pb border-bottom border-primary form-space-mb">
+        <div class="form-space-mb">
           <select class="form-select p-3" for="level">
             <option selected>-Choose access level-</option>
             <option value="1">One</option>
@@ -211,6 +212,7 @@ current: admin
             <option value="3">Three</option>
           </select>
         </div>
+        <hr class="form-space-mb">
         <h3 class="fw-bold fs-5 mb-3">Custom Access</h3>
         <div class="form-check mb-3 d-flex align-items-center">
           <input class="form-check-input me-2" type="checkbox" value="Lecture" id="Lecture">
@@ -280,7 +282,7 @@ current: admin
                 <div id="collapseOne" class="accordion-collapse collapse pt-5">
                   <div class="d-flex">
                     <button type="button" class="btn btn-outline-danger fw-bold me-3 py-2 px-5">Deactivate</button>
-                    <button type="button" class="btn btn-success fw-bold py-2 px-5">Edit</button>
+                    <button type="button" class="btn btn-success fw-bold py-2 px-5" data-bs-toggle="modal" data-bs-target="#editModal">Edit</button>
                   </div>
                 </div>
               </div>
@@ -306,10 +308,11 @@ current: admin
           <label for="account" class="form-label fs-7 mb-1">Name</label>
           <input type="text" class="form-control p-3 border-0 bg-light" id="account" value="Emir Wicks" readonly>
         </div>
-        <div class="form-space-pb border-bottom border-primary form-space-mb">
+        <div class="form-space-mb">
           <label for="email" class="form-label fs-7 mb-1">Email</label>
           <input type="email" class="form-control p-3 border-0 bg-light" id="email" value="emir.wicks@mail.com" readonly>
         </div>
+        <hr class="form-space-mb">
         <h3 class="fw-bold fs-5 mb-3lg">Verification</h3>
         <div class="d-flex justify-content-between align-items-center mb-3lg">
           <p class="mb-0 fw-bold d-flex align-items-center">
@@ -324,13 +327,14 @@ current: admin
           <button class="btn py-3 text-primary" type="button" disabled>Send Verification Mail</button>
         </div>
         <h3 class="fw-bold fs-5 mb-3">Access Level</h3>
-        <div class="form-space-pb border-bottom border-primary form-space-mb">
+        <div class="form-space-mb">
           <select class="form-select p-3 border-dark" for="level">
             <option value="Admin">Admin</option>
             <option value="User">User</option>
             <option value="3">Three</option>
           </select>
         </div>
+        <hr class="form-space-mb">
         <h3 class="fw-bold fs-5 mb-3">Custom Access</h3>
         <div class="form-check mb-3 d-flex align-items-center">
           <input class="form-check-input me-2" type="checkbox" value="Lecture" id="editLecture">
@@ -356,12 +360,13 @@ current: admin
             Setting
           </label>
         </div>
-        <div class="form-check form-space-pb d-flex align-items-center border-primary form-space-mb">
+        <div class="form-check d-flex align-items-center form-space-mb">
           <input class="form-check-input me-2" type="checkbox" value="Task" id="editTask">
           <label class="form-check-label" for="editTask">
             Task Menu
           </label>
         </div>
+        <hr class="form-space-mb">
         <h3 class="fw-bold fs-5 mb-3">Deactivate Account</h3>
         <p class="mb-3lg fw-bold d-flex align-items-center text-danger">
           <span class="material-icons text-danger me-2">warning</span>
